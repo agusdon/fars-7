@@ -2,7 +2,7 @@
 #' 
 #' This function reads in raw data from a csv file
 #' 
-#' @param A character string providing the name of the csv file to load
+#' @param filename Path to the CSV file (character)
 #' @details Will return an error message if the file does not exist
 #' @return The function returns a tibble (data.frame) from the CSV file loaded
 #' @importFrom readr read_csv
